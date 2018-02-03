@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+
+单选按钮：
+
+|     选项名称  | 选项值 | 状态  |
+| ------------ | --- | ---------|
+| 选项1 |  ${1:选项1} | ${2:非选中}|
+${3:| 选项2 |  ${4:选项2} | ${5:选中}|
+${6:| 选项3 |  ${7:选项3} | ${8:禁用}|}}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>radio</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.markdown</scope>
+</snippet>
+
+
