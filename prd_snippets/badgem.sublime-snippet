@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+这是有数字徽标：
+
+* 当收到新的消息，徽标出现在图标右上角
+* 徽标中显示消息数目
+* 最大显示消息数量为`$1`,超过最大数目显示`$1+`
+* 点击该图标，然后返回，徽标消失
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>badgem</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>有数字徽标出现在图标或者文字右上角，其中的数字表示未读的新消息</description>
+	<scope>text.html.markdown</scope>
+</snippet>
+

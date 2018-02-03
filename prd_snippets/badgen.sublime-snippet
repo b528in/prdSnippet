@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+
+这是无数字徽标：
+
+* 当收到新的消息，徽标出现在图标右上角
+* 点击该图标，然后返回，徽标消失
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>badgen</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>无数字徽标以原点的形式，出现在图标或者文字右上角，表示有新的内容或更新</description>
+	<scope>text.html.markdown</scope>
+</snippet>
+
+
