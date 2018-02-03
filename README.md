@@ -1,5 +1,15 @@
 # prdSnippet
 
+## new snippet
+
+* badgen:badge notification 表示无数字的徽标
+* badgem:badge message 表示有数字的徽标，可设置最大的消息数目
+* radio：单选按钮，可设置选项名称、选项值、选项状态
+
+---
+
+## 介绍
+
 产品经理在写作需求文档过程中，常会用到通用的控件描述，或者容易遗漏规则。所以本项目的目的就是：
 
 * 收集常见的产品需求文档写作片段，加以复用
@@ -68,6 +78,7 @@ ${6:| 选项3 |  ${7:选项3} | ${8:禁用}|}}
 ## gif 
 
 ![Demo](https://github.com/renxiangbin/prdSnippet/blob/master/radio_test.gif)
+![Demo](https://github.com/renxiangbin/prdSnippet/blob/master/badgem_test.gif)
 
 ## 我怎么使用呢？
 
