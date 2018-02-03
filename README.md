@@ -65,6 +65,9 @@ ${6:| 选项3 |  ${7:选项3} | ${8:禁用}|}}
 </snippet>
 
 ```
+## gif 
+
+![Demo](https://github.com/renxiangbin/prdSnippet/blob/master/radio_test.gif)
 
 ## 我怎么使用呢？
 
