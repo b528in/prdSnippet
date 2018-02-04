@@ -3,18 +3,19 @@
 ## new snippet
 
 * badgen:badge notification 表示无数字的徽标
-* badgem:badge message 表示有数字的徽标，可设置最大的消息数目
+* badgem:badge messages 表示有数字的徽标，可设置最大的消息数目
 * radio：单选按钮，可设置选项名称、选项值、选项状态
 
 ---
 
 ## 介绍
 
-产品经理在写作需求文档过程中，常会用到通用的控件描述，或者容易遗漏规则。所以本项目的目的就是：
+产品经理在写作需求文档过程中，会用到通用的控件描述，而且控件复杂起来还容易遗漏规则。所以本项目的目的就是：
 
 * 收集常见的产品需求文档写作片段，加以复用
-* 用以在写作过程中核查，防止规则遗漏
+* 在写作过程中根据提示核查，防止规则遗漏
 * 让文档看起来美美哒，这离不开[Markdown](https://zh.wikipedia.org/zh-cn/Markdown)
+* 你没看错，就是偷懒。把省下的时间用来思考业务逻辑、提高用户体验、项目管理等等事务上。产品经理很忙哒对不对。
 
 **同时借助sublime text 3中的snippet功能，最终实现像写代码一样，通过关键词输入，提示控件内容，然后补全参数即可。**
 
@@ -90,7 +91,13 @@ ${6:| 选项3 |  ${7:选项3} | ${8:禁用}|}}
 
 ## 我可以根据我的文档写作习惯修改吗？
 
-Certainly,Do whatever you want to do!
+Certainly,do whatever you want to do!
+
+## “你写的不准确，应该这样写...”
+
+是的，不同的业务需求不同，可能会很常见。
+1. 希望做到尽可能通用。
+2. 对于的确有错误的地方，欢迎在`Issues`中提出来，我会尽快修改。
 
 
 ## 找组织
@@ -111,9 +118,9 @@ Certainly,Do whatever you want to do!
 ---
 
 ## 参考内容：
-
+- [这个控件叫什么](https://zhuanlan.zhihu.com/c_87416856)
 - [什么是Markdown？](https://zh.wikipedia.org/zh-cn/Markdown)
 - 超棒的编辑器 [sublime text 3](https://www.sublimetext.com/)
 - 关于sublime text 3 snippet参见[官方文档](http://sublimetext.info/docs/en/extensibility/snippets.html)
-- Git教程参见[Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)。
+- Git教程参见[Git教程](https://www.liaoxuefeng.com)。
 

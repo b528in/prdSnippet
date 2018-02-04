@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+
+这是步进器：
+
+* 步长为`$1`，下限为`$2`，上限为`$3`
+* 当点击`加号`或者`减号`，数值`增加`或`减少` `$1`
+* 点击输入框`${4:可以}`通过键盘输入修改${5:，输入框不支持粘贴数据}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stepper</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>有数字徽标出现在图标或者文字右上角，其中的数字表示未读的新消息</description>
+	<scope>text.html.markdown</scope>
+</snippet>
+
