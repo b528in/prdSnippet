@@ -11,16 +11,15 @@
 
 ---
 
-## 介绍
+## 简介
 
 产品经理在写作需求文档过程中，会用到通用的控件描述，而且控件复杂起来还容易遗漏规则。所以本项目的目的就是：
 
 * 收集常见的产品需求文档写作片段，加以复用
 * 在写作过程中根据提示核查，防止规则遗漏
 * 让文档看起来美美哒，这离不开[Markdown](https://zh.wikipedia.org/zh-cn/Markdown)
-* 偷懒
 
-**同时借助sublime text 3中的snippet功能，最终实现像写代码一样，通过关键词输入，提示控件内容，然后补全参数即可。**
+**借助sublime text 3中的snippet功能，最终实现像写代码一样，通过关键词输入，提示控件内容，然后补全参数即可。**
 
 ## gif 
 
@@ -63,7 +62,7 @@ Certainly,do whatever you want to do!
 
 ---
 
-## 参考内容：
+## 参考及感谢：
 - [这个控件叫什么](https://zhuanlan.zhihu.com/c_87416856)
 - [什么是Markdown？](https://zh.wikipedia.org/zh-cn/Markdown)
 - 超棒的编辑器 [sublime text 3](https://www.sublimetext.com/)
