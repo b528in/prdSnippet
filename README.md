@@ -1,7 +1,8 @@
 # prdSnippet
 
-## new snippet
+## new snippets
 
+* stepper:步进器 可以设置步长，上限，下限，是否支持输入框输入
 * badgen:badge notification 表示无数字的徽标
 * badgem:badge messages 表示有数字的徽标，可设置最大的消息数目
 * radio：单选按钮，可设置选项名称、选项值、选项状态
@@ -15,7 +16,7 @@
 * 收集常见的产品需求文档写作片段，加以复用
 * 在写作过程中根据提示核查，防止规则遗漏
 * 让文档看起来美美哒，这离不开[Markdown](https://zh.wikipedia.org/zh-cn/Markdown)
-* 你没看错，就是偷懒。把省下的时间用来思考业务逻辑、提高用户体验、项目管理等等事务上。产品经理很忙哒对不对。
+* 偷懒
 
 **同时借助sublime text 3中的snippet功能，最终实现像写代码一样，通过关键词输入，提示控件内容，然后补全参数即可。**
 
