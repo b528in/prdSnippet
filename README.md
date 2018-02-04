@@ -1,4 +1,4 @@
-# prdSnippet
+# PRD Snippet
 
 [使用文档](https://renxiangbin.github.io/prdSnippet/)
 
