@@ -1,16 +1,5 @@
 # prdSnippet
 
-> [使用文档](https://renxiangbin.github.io/prdSnippet/)
-
-## new snippets
-
-* stepper:步进器 可以设置步长，上限，下限，是否支持输入框输入
-* badgen:badge notification 表示无数字的徽标
-* badgem:badge messages 表示有数字的徽标，可设置最大的消息数目
-* radio：单选按钮，可设置选项名称、选项值、选项状态
-
----
-
 ## 介绍
 
 产品经理在写作需求文档过程中，会用到通用的控件描述，而且控件复杂起来还容易遗漏规则。所以本项目的目的就是：
@@ -22,51 +11,71 @@
 
 **同时借助sublime text 3中的snippet功能，最终实现像写代码一样，通过关键词输入，提示控件内容，然后补全参数即可。**
 
-## gif 
+举个例子，比如 radio 单选按钮：
 
-![Demo](https://github.com/renxiangbin/prdSnippet/blob/master/radio_test.gif)
-![Demo](https://github.com/renxiangbin/prdSnippet/blob/master/badgem_test.gif)
+* 描述：单选按钮允许用户在有限数量的选项中选择其中之一；
+* 选项属性：名称、选项值、选项状态；
+* 状态有：选中、非选中、禁用；
 
-## 我怎么使用呢？
+假如已经在sublime text 3中创建好了radio的snippet，那么我只需要键入radio+<kbd>tab</kbd>就可以写出：
 
-当前可以手动安装，等snippet积累到一定的数量，我会提交到 [package control](https://packagecontrol.io/browse)中。
+```markdown
 
-1. git clone 或者下载项目
-2. 在sublime中找到 Browser Packages
-3. 把项目放到Packages文件夹中即可
+单选按钮：
 
-## 我可以根据我的文档写作习惯修改吗？
+|     选项名称  | 选项值 | 状态  |
+| ------------ | --- | ---------|
+| 选项1 |  选项值 | 非选中|
+| 选项2 |  选项值 | 选中|
+| 选项3 |  选项值 | 禁用|
 
-Certainly,do whatever you want to do!
+```
 
-## “你写的不准确，应该这样写...”
-
-是的，不同的业务需求不同，可能会很常见。
-1. 希望做到尽可能通用。
-2. 对于的确有错误的地方，欢迎在`Issues`中提出来，我会尽快修改。
+通过markdown语法解析后显示为：
 
 
-## 找组织
+|     选项名称  | 选项值 | 状态  |
+| ------------ | --- | ---------|
+| 选项1 |  选项值 | 非选中|
+| 选项2 |  选项值 | 选中|
+| 选项3 |  选项值 | 禁用|
 
-如果你是用其它高效的方式同开发交流产品需求文档，也欢迎你加入我们。同开发人员高效的沟通，是我们的根本目的。
+然后通过切换<kbd>tab</kbd>来选择各个选项的值或者删除每一行。
 
-1. 讨论帖可以来这里：[V2EX](https://www.v2ex.com/t/427898)
-2. 想聊一聊可以来这里：[Telegram](https://t.me/joinchat/EukrYA1RDmDQ4qhYNosiwg)
+snippet文件结构如下:
 
-## 如果你想参与进来，非常欢迎：
+```xml
 
-1. Fork it!
-2. 创建你的特性分支: git checkout -b my-new-feature
-3. 提交commit: git commit -m 'Add some feature'
-4. push: git push origin my-new-feature
-5. Submit a pull request
+<snippet>
+  <content><![CDATA[
 
----
+单选按钮：
 
-## 参考内容：
-- [这个控件叫什么](https://zhuanlan.zhihu.com/c_87416856)
-- [什么是Markdown？](https://zh.wikipedia.org/zh-cn/Markdown)
-- 超棒的编辑器 [sublime text 3](https://www.sublimetext.com/)
-- 关于sublime text 3 snippet参见[官方文档](http://sublimetext.info/docs/en/extensibility/snippets.html)
-- Git教程参见[Git教程](https://www.liaoxuefeng.com)。
-[Go](#hello-world)
+|     选项名称  | 选项值 | 状态  |
+| ------------ | --- | ---------|
+| 选项1 |  ${1:选项1} | ${2:非选中}|
+${3:| 选项2 |  ${4:选项2} | ${5:选中}|
+${6:| 选项3 |  ${7:选项3} | ${8:禁用}|}}
+
+]]>
+  </content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>radio</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.markdown</scope>
+  <description>单选按钮允许用户在有限数量的选项中选择其中之一<description>
+</snippet>
+
+```
+## Snippets
+
+### stepper
+步进器 可以设置步长，上限，下限，是否支持输入框输入
+
+### badge
+badgen:badge notification 表示无数字的徽标
+badgem:badge messages 表示有数字的徽标，可设置最大的消息数目
+
+### radio
+radio:单选按钮，可设置选项名称、选项值、选项状态
+
